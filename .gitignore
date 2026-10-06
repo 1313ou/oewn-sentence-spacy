@@ -1,0 +1,12 @@
+/.venv
+/oewn-*.sqlite
+/oewn-*.sqbpro
+/fork
+/oewn
+/oewn*
+/yaml
+/output*
+**/*.csv
+**/*.ods
+**/*.bak
+log*
