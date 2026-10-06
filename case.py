@@ -1,6 +1,3 @@
-import sys
-
-import spacy
 from spacy.lang.fr.tokenizer_exceptions import upper_first_letter, lower_first_letter
 import sentence
 
@@ -13,7 +10,7 @@ def _tokens(doc):
 
 
 def _is_punctuated(doc):
-    has_punctuation = any(token.dep_ in ('punct') for token in doc)
+    has_punctuation = any(token.dep_ in ['punct'] for token in doc)
     return has_punctuation
 
 
